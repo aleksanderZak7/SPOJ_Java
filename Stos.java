@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Stos 
+class Main
 {
     public static void main(String[] args)
     {
