@@ -15,8 +15,10 @@ class Calculations
     }
 }
 
-public class NWD {
-    public static void main(String[] arg){
+class Main
+{
+    public static void main(String[] arg)
+    {
         Scanner input = new Scanner(System.in);
         int t = input.nextInt();
         for(int i=0;i<t;i++)
