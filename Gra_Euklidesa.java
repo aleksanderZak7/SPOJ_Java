@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Game
 {
-    Game(int a, int b)
+    static void Euklides(int a, int b)
     {
         while(b !=0)
         {
@@ -22,7 +22,7 @@ class Main{
         {
             int a = input.nextInt();
             int b = input.nextInt();
-            Game Euklides = new Game(a,b);
+            Game.Euklides(a,b);
         }
         input.close();
     }
